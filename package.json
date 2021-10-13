@@ -1,0 +1,23 @@
+{
+  "name": "mem-leak-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "global_res.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "global_res": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node global_res.js",
+    "global_res_fix": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node global_res_fix.js",
+    "closure": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node closure.js",
+    "closure_fix": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node closure_fix.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwangonline/node-mem-leak-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwangonline/node-mem-leak-examples/issues"
+  },
+  "homepage": "https://github.com/pwangonline/node-mem-leak-examples#readme"
+}
