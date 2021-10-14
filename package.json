@@ -12,7 +12,9 @@
     "cache": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node cache.js",
     "cache_fix": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node cache_fix.js",
     "promise": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node promise.js",
-    "promise_fix": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node promise_fix.js"
+    "promise_fix": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node promise_fix.js",
+    "ee": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node eventemitter.js",
+    "ee_fix": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node eventemitter_fix.js"
   },
   "repository": {
     "type": "git",
