@@ -8,7 +8,11 @@
     "global_res": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node global_res.js",
     "global_res_fix": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node global_res_fix.js",
     "closure": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node closure.js",
-    "closure_fix": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node closure_fix.js"
+    "closure_fix": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node closure_fix.js",
+    "cache": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node cache.js",
+    "cache_fix": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node cache_fix.js",
+    "promise": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node promise.js",
+    "promise_fix": "clinic doctor --on-port 'autocannon -w 300 -c 100 -d 20 localhost:3000' -- node promise_fix.js"
   },
   "repository": {
     "type": "git",
